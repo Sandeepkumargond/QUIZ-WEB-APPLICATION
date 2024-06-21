@@ -7,15 +7,7 @@ let score = 0;
 
 
 const questions = [
-    {
-        question: "javascript is an _____________ language",
-        answers:[
-            {text:"object-based",correct:false},
-            {text:"object-oriented ",correct:true},
-            {text:"procedural",correct:false},
-            {text:"none of the above",correct:false},
-        ]
-    },
+    
     {
         
         question: "  Which of the following keywords is used to define a variable in Javascript?",
@@ -26,16 +18,17 @@ const questions = [
             {text:"all of these",correct:true},
         ]
     },
+
     {
-        
-        question: "Which of the following methods is used to access HTML elements using Javascript? ",
+        question: "javascript is an _____________ language",
         answers:[
-            {text:"getElementbyId",correct:false},
-            {text:"getElementByClassName",correct:false},
-            {text:"both A and B",correct:true},
+            {text:"object-based",correct:false},
+            {text:"object-oriented ",correct:true},
+            {text:"procedural",correct:false},
             {text:"none of the above",correct:false},
         ]
     },
+    
     {
          
         question: "Upon encountering empty statements, what does the Javascript Interpreter do?      ",
@@ -64,6 +57,16 @@ const questions = [
             {text:"let",correct:false},
             {text:"var",correct:false},
             {text:"constant",correct:false},
+        ]
+    },
+    {
+        
+        question: "Which of the following methods is used to access HTML elements using Javascript? ",
+        answers:[
+            {text:"getElementbyId",correct:false},
+            {text:"getElementByClassName",correct:false},
+            {text:"both A and B",correct:true},
+            {text:"none of the above",correct:false},
         ]
     },
     {
