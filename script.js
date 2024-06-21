@@ -89,16 +89,7 @@ const questions = [
             {text:"lies",correct:false},
         ]
     },
-    {
-         
-         question: "  What is the use of the <noscript> tag in Javascript?",
-     answers:[
-            {text:"the contents are displayed by-NON-JS-Browsers",correct:true},
-            {text:"clear all the coockies and cache ",correct:false},
-            {text:"Both A and B",correct:false},
-            {text:"None of the above",correct:false},
-        ]
-    },
+   
     {
          
         question: "When an operator’s value is NULL, the typeof returned by the unary operator ?",
@@ -159,16 +150,7 @@ const questions = [
         {text:"none of the above",correct:false},
     ]
 },
-{
-     
-    questions: " How are objects compared when they are checked with the strict equality operator ?",
-    answers:[
-        {text:"the contents of the objects are compared",correct:false},
-        {text:"Their references are compaired ",correct:true},
-        {text:"Both A and B",correct:false},
-        {text:"None of the above",correct:false},
-    ]
-},
+
 {
  
     question: " How do we write a comment in javascrit ?",
