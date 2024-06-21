@@ -28,17 +28,6 @@ const questions = [
             {text:"none of the above",correct:false},
         ]
     },
-    
-    {
-         
-        question: "Upon encountering empty statements, what does the Javascript Interpreter do?      ",
-        answers:[
-            {text:"Throws an Error",correct:false},
-            {text:"igonre the statement ",correct:true},
-            {text:"Gives a Warning",correct:false},
-            {text:"None of the above",correct:false},
-        ]
-    },
     {
          
         question: "Which of the following methods can be used to display data in some form using Javascript?",
@@ -69,16 +58,7 @@ const questions = [
             {text:"none of the above",correct:false},
         ]
     },
-    {
-         
-        question: "When the switch statement matches the expression with the given labels, how is the comparison done ?",
-        answers:[
-            {text:"both the datatype and the result of the experssion are comaired",correct:true},
-            {text:"only the datatype of the experssion is compaired",correct:false},
-            {text:"only the value of the experssion is compaired",correct:false},
-            {text:"None of the above",correct:false},
-        ]
-    },
+   
     {
          
         question: "What keyword is used to check whether a given property is valid or not?",
@@ -153,7 +133,7 @@ const questions = [
 
 {
  
-    question: " How do we write a comment in javascrit ?",
+    question: " How do we write a comment in javascript ?",
     answers:[
         {text:"/**/",correct:false},
         {text:"// ",correct:true},
